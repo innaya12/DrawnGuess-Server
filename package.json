@@ -6,8 +6,8 @@
     "node": "16.15.0"
   },
   "scripts": {
-    "start": "node server.js",
-    "heroku-postbuild": "npm install && npm run build"
+    "start": "node ./bin/www",
+    "heroku-postbuild": "npm install && start"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
